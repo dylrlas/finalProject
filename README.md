@@ -6,7 +6,7 @@ Dylan Lassard
 
 
 ## Purpose (*Subject to change*)
-Create a game where an angel is trying to escape from the depths of the underworld by jumping through pipes and avoiding to get hit by enemies.
+You are a angel who is being held prisoner by the Devil and his minions after losing the great war between Heaven and Hell. Create a game where an angel is trying to escape from the depths of the underworld by jumping through moving pipes and to avoid getting hit by enemies.
 
 ## Implementation
 Unity 2D with C# scripts
