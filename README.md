@@ -1,4 +1,4 @@
-# finalProject
+# CS371finalProject
  NMSU CS 371 Software Dev Project
 
 ## Member
@@ -10,3 +10,7 @@ You are an angel who is being held prisoner by the Devil and his minions after l
 
 ## Implementation
 Unity 2D with C# scripts
+
+
+# dylrlas finalProject link:
+https://dylrlas.github.io/finalProject/
