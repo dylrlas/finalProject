@@ -1,6 +1,6 @@
 ## Welcome to dylrlas Project page
 
-## Creating a single player card game which has the player avoid obstacles and damage from enemies with Unity and C# for NMSU CS 371 - Software Development.
+## Creating a single player card game which has the player avoid incoming obstacles in various positions and damage from enemies with Unity and C# for NMSU CS 371 - Software Development.
 
 
 # Index
