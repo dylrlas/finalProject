@@ -39,13 +39,13 @@
                                                                           |                                                                                  |
                    subclass                                               |                                                                                  |
       ## Angel <-------------------------------                           |------------------------------------------------------------------                |
-    { Import Angel 9player)                   |                           |                                                                  |                | 
-     DimensionsofAngel                        |                           |                                                                  |                |
-    Importdevils(enemy)                       |                           |                                                                  |                |
-    Velocity                                  |                           |   method call                                                    |                |
-    Gravity/Physics (components)}             |                           |                                                                  |                |
-                                              |                           |                                                                  |                |
-                                              |                           V                                                                  |                |
+    { Import Angel (player)                   |                           |                                                                 |                | 
+     DimensionsofAngel                        |                           |                                                                 |                |
+    Import Devils' minions(enemy)             |                           |                                                                 |                |
+    Velocity                                  |                           |   method call                                                   |                |
+    Gravity/Physics (components)}             |                           |                                                                 |                |
+                                              |                           |                                                                 |                |
+                                              |                           V                                                                 |                |
                                               |--------------------> ##GamePlay()                                                           |                |
                                                                                                                                             |                |
                                                                {CreateAreaforGame                                                           |                |
