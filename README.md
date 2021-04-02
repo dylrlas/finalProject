@@ -1,4 +1,4 @@
-# CS371finalProject
+# EscapefromRuinsOfHell
 * NMSU CS 371 Software Dev Project
 
 ## Member
