@@ -8,7 +8,7 @@
 **The PC machine and the compatible server will independently run the game with the same start time and tap data sent back and forth through the server. For example, for the server once the game begins, the gravity starts and the angel will start falling, once the server receives a click from a player the server updates its instance of the game. This continues until die() is called when the player hits the ground, takes a hit from an enemy, or hits a pipe as they are "escaping".
 
 ## Reusability
-**I had based my game layout on the familiar look of the UI for Flappy Bird in Unity 2D for the version of the game; this excludes a main menu but includes imported music to make the game more unique as well as in-game play. Actual physics of the game such as the angel hovering, and angel impact with the tube
+**I had based my game layout on the familiar look of the UI for Flappy Bird in Unity 2D for the version of the game; this excludes a main menu but includes imported music to make the game more unique as well as in-game play. Actual physics of the game such as the angel hovering, and angel impact with the tube was also kept so that the design implementation could be very easy for me to follow, since I had previously played Flappy Bird once or twice before it was taken down due to user addiction issues.
 
 
 
