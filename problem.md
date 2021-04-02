@@ -22,7 +22,7 @@ the game. The angel briefly "flies" upward each time the player uses left button
 
 ### Game Features ###
 * Game over message which states that the angel died in some way
-* Score to keep track of how many pipes the angel has jumped through
+* Score to keep track of how many pipes the player has jumped through
 * Possible countdown feature to give the time to get ready to start jumping through those pipes and play the game
 
 
