@@ -7,7 +7,7 @@ The game is a side-scroller where the player controls a angel, attempting to
 fly between rows of red pipes without coming into contact with them. If
 the player touches the pipes or gets hit by an enemy fireball, it ends
 the game. The angel briefly "flies" upward each time the player uses left button on mouse;
-; if the left mouse button is not clicked, the angel falls due to gravity and dies.
+; if the left mouse button is not clicked, the angel falls due to gravity and "dies".
 
 
 ### Game Rules and Mechanics ###
