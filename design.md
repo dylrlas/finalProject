@@ -89,11 +89,11 @@
 
        # Design/Documentation for Escape from Ruins Scaled-Back Project:
        
-       ## I.) Overall Project Goal:
+       * I.) Overall Project Goal:
             * The goal of this project will be to create a simple PC verison however where the user clicks the left-mouse button to fly upward instead of tapping anywhere on the screen. The game is a side-scroller where the player controls a angel, attempting to fly between rows of red pipes without coming into contact with them. If the player touches the pipes or gets hit by an enemy fireball, it ends the game. The angel briefly "flies" upward each time the player uses left button on mouse; ; if the left mouse button is not clicked, the angel falls due to gravity and "dies". This game should be entertaining, fun, and performing all correct user functionalities that do not create any fatal errors which would result in the termination of the program.
 
 
-       ## II.) Risks/Constraints/Assumptions:
+       * II.) Risks/Constraints/Assumptions:
              * Technical Constraints :
                  - Costs lots of time but not too many resources; heavy schedule relating to other schoolwork/ exams that I need to spend time doing or
                   studying for; not seeking financial gain- only a school project
@@ -110,7 +110,7 @@
                      operational and physically infrastructured by notifying any appropriate entities to fix the source of events causing each fault.
                      
          
-       ## III.) Primary Objectives of Game Functionality/Design Implementation :
+       * III.) Primary Objectives of Game Functionality/Design Implementation :
          
                    * Game over message which states that the angel died in some way (either by fireball, touching pipe, or falling to the ground)
                    * Score to keep track of how many pipes the player has jumped through
@@ -123,7 +123,7 @@
 
 
         
-       ## IV.)  Overview of User Requirements and General Project Requirements 
+       * IV.)  Overview of User Requirements and General Project Requirements 
        
                      * 1.) Game Format : Having a game with simple rules and mechanics would be ideal for beginning and intermediate players and allow everyone to enjoy the game, without requiring extensive research to understand rules and strategy.
                      
