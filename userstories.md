@@ -25,10 +25,10 @@
 
 *  ### 3: Unique details 
  **As a player, I want unique details to be added if time allows so that it is the conceptual idea of the project has its own characteristic features.**  
- *Elaboration:* Two players should be able to play against each other in a card game  
- *Constraints:* Each player should only have access to their own hand and deck, with cards in their hand being obfuscated from their opponent until played.  
+ *Elaboration:* Adding enemies who shoot fireballs is a classic example of something that is not in the game of Flappy Bird that the developer should plan to implement into his own game design to make it more unique and not just a "copy" of a game that was once famous and addictive.
+ *Constraints:* 
  *Effort Estimation:* 4 person-hours  
- *Acceptance Test:* Two players on separate computers should be able to play a game against one another, with each player only being able to see the cards in their hand and on both players' sides of the field.  
+ *Acceptance Test:*   Enemies should float a few feet away in front of the angel and shoot a fireball each at him so it is a little more of a challenge for players to overcome. FYI, enemies should float in front of pipes and not be harmed in any way by them.
 
 * ### 4: Refinement of work on each functionality
  **As a player, I want to be able to be able to play the game without any flaws in the code so that the user can have a more enjoyable experience playing the game.**   
