@@ -59,7 +59,10 @@
                                                                                                                                      RenderDisplay() }
          
          
-         ## Text Explanation for Rscape from Ruins project implementation
+         
+         
+         
+       # Text Explanation for Escape from Ruins Project implementation:
            
            # Angel
            * Added gravity components to the angel so that it has features of moving up and down whenever the user left clicks on the mouse so that the character can dodge                     incoming obstacles
@@ -107,11 +110,30 @@
                      operational and physically infrastructured by notifying any appropriate entities to fix the source of events causing each fault.
                      
          
+       ## III.) Primary Objectives of Game Functionality/Design Implementation :
          
-         
-         ## III.)
+                   * Game over message which states that the angel died in some way (either by fireball, touching pipe, or falling to the ground)
+                   * Score to keep track of how many pipes the player has jumped through
+                   * Possible countdown feature to give the time to get ready to start jumping through those pipes and play the game
+                   * The player must navigate through the underworld and jump between pipes in various positions in order to feel good about their own skills in a meaningless                        aspect of life
+                   * No main menu feature; the game will automatically start once I open the application.
+                  *  Exit button may be potentially available if the user wishes to quit early (although not really necessary) ; restart button functionality required however
+                  *  Enemies will randomly spawn and fly much like the angel in front of the player (no they won’t have to avoid pipes like you) and shoot fireballs at the         angel. It is the gamer’s job to avoid getting hit by these as well otherwise they have to start the restart the game again
+
+
+
+        
+       ## IV.)  Overview of User Requirements and General Project Requirements 
        
-       
+                     * 1.) Game Format : Having a game with simple rules and mechanics would be ideal for beginning and intermediate players and allow everyone to enjoy the game, without requiring extensive research to understand rules and strategy.
+                     
+                     * 2.) Enables designated changes:  In this context, the angel who sholuld have wings should not crash to the ground whenever he does not crash into a pipe   or gets hit by a fireball. Changes should be additionally made if an original idea on a specific feature of the game needs to be modified in order to fit in the overall scope of the project.
+                     * 3.) Unique features in custom-made project: Adding enemies who shoot fireballs is a classic example of something that is not in the game of Flappy Bird that the developer should plan to implement into his own game design to make it more unique and not just a "copy" of a game that was once famous and addictive. 
+
+                     * 4.) Refinement of work on each game design functionality: It can be frustrating for people who have played the game "Flappy Bird" before if their avatar flies through a pipe without failing the game or if there is no audio synced to the game's UI system that can help keep the player entertained and not just bored with the potential bitter disappointment that they had wished for.
+
+
+                     *5.)  Intuitive UI:  A user should be able to click the mouse to decide which level they will "hover" on and whenever the avatar makes contact with a pipe, then they should automatically fall to the ground and lose the game. 
                                           
                                           
                                           
