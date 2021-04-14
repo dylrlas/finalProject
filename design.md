@@ -32,7 +32,7 @@
                                                                       |                                                                    | ------------|
                                                                       |                                                                                  |
                subclass                                               |                                                                                  |
-  ## Angel <-------------------------------                           |------------------------------------------------------------------                |
+  ##Angel <-------------------------------                            |------------------------------------------------------------------                |
 { Import Angel (player)                   |                           |                                                                 |                | 
  DimensionsofAngel                        |                           |                                                                 |                |
 Import Devils' minions(enemy)             |                           |                                                                 |                |
@@ -45,11 +45,11 @@ Gravity/Physics (components)}             |                           |         
                                                            {CreateAreaforGame                                                           |                |
                                                            CoordsforAngel (x, y)                                                        |                |
                                                           RandomizePlacementOfPipe                                                      |                |
-                                                            countdown                                                                   |                |
+                                                            Countdown()                                                                   |                |
                                                           NewAngelPos(AngelLocation);                                                   |                |
                                                                                                                                         |                |
                                                               Death                                                                     |                |
-                                                             totalScore } -------------------------------------------------             |                |
+                                                             totalScore() } -------------------------------------------------             |                |
                                                                                                                           |             V                |
                                                                                                                           |-------->##GameDisplay() <----|
                                                                                                                               
