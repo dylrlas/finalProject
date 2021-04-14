@@ -8,61 +8,69 @@
   * Import coded animation to make it look like the angel is actually dead and not standing on the ground stiff as a board in an awkward upright position
   
 
-                                                                                         flow of data
-                                                                          ----------------------------------------
-                                                                         |                                       |
-                                                                         |                                       |
-                                                                         |                                       |
-                                                                         |          flow of data                 V
-                                                                   ## Main      ---------------------->       ## Server  
-                                                                   { startGame()                            { CreateAreaforGame
-                                                                    RenderDisplay()}
-                                                                          |                                 CoordsforAngel (x, y)
-                                                                          |
-                                                                          |                                 RandomizePlacementOfPipe
-                                                                          |
-                                                                          |                                  StartGame()*
-                                                                          |
-                                                                          |                                  death }
-                                                                          |  
-                                                                          |
-                                                                          |     flow of data
-                                                                          |------------------------------------------------------------------- |
-                                                                          |                                                                    |   method called
-                                                                          |                                                                    | ------------|
-                                                                          |                                                                                  |
-                   subclass                                               |                                                                                  |
-       ##Angel <-------------------------------                           |------------------------------------------------------------------                |
-    { Import Angel (player)                   |                           |                                                                 |                | 
-     DimensionsofAngel                        |                           |                                                                 |                |
-    Import Devils' minions(enemy)             |                           |                                                                 |                |
-    Velocity                                  |                           |   method call                                                   |                |
-    Gravity/Physics (components)}             |                           |                                                                 |                |
-                                              |                           |                                                                 |                |
-                                              |                           V                                                                 |                |
-                                              |--------------------> ##GamePlay()                                                           |                |
-                                                                                                                                            |                |
-                                                               {CreateAreaforGame                                                           |                |
-                                                               CoordsforAngel (x, y)                                                        |                |
-                                                              RandomizePlacementOfPipe                                                      |                |
-                                                                countdown                                                                   |                |
-                                                              NewAngelPos(AngelLocation);                                                   |                |
-                                                                                                                                            |                |
-                                                                  Death                                                                     |                |
-                                                                 totalScore } -------------------------------------------------             |                |
-                                                                                                                              |             V                |
-                                                                                                                              |-------->##GameDisplay() <----|
-                                                                                                                                  
-                                                                                                                                        { BackgroundImage
-                                                                                                                                     ImportPipes(randomPos)
-                                                                                                                                     ImportSprites(spriteLocation)
-                                                                                                                                     RenderDisplay() }
+                                                                                    flow of data
+                                                                      ----------------------------------------
+                                                                     |                                       |
+                                                                     |                                       |
+                                                                     |                                       |
+                                                                     |          flow of data                 V
+                                                               ## Main      ---------------------->       ## Server  
+                                                               { startGame()                            { CreateAreaforGame
+                                                                RenderDisplay()}
+                                                                      |                                 CoordsforAngel (x, y)
+                                                                      |
+                                                                      |                                 RandomizePlacementOfPipe
+                                                                      |
+                                                                      |                                  StartGame()*
+                                                                      |
+                                                                      |                                  death }
+                                                                      |  
+                                                                      |
+                                                                      |     flow of data
+                                                                      |------------------------------------------------------------------- |
+                                                                      |                                                                    |   method called
+                                                                      |                                                                    | ------------|
+                                                                      |                                                                                  |
+               subclass                                               |                                                                                  |
+  ##Angel <-------------------------------                           |------------------------------------------------------------------                |
+{ Import Angel (player)                   |                           |                                                                 |                | 
+ DimensionsofAngel                        |                           |                                                                 |                |
+Import Devils' minions(enemy)             |                           |                                                                 |                |
+Velocity                                  |                           |   method call                                                   |                |
+Gravity/Physics (components)}             |                           |                                                                 |                |
+                                          |                           |                                                                 |                |
+                                          |                           V                                                                 |                |
+                                          |--------------------> ##GamePlay()                                                           |                |
+                                                                                                                                        |                |
+                                                           {CreateAreaforGame                                                           |                |
+                                                           CoordsforAngel (x, y)                                                        |                |
+                                                          RandomizePlacementOfPipe                                                      |                |
+                                                            countdown                                                                   |                |
+                                                          NewAngelPos(AngelLocation);                                                   |                |
+                                                                                                                                        |                |
+                                                              Death                                                                     |                |
+                                                             totalScore } -------------------------------------------------             |                |
+                                                                                                                          |             V                |
+                                                                                                                          |-------->##GameDisplay() <----|
+                                                                                                                              
+                                                                                                                                    { BackgroundImage
+                                                                                                                                 ImportPipes(randomPos)
+                                                                                                                                 ImportSprites(spriteLocations)
+
+                                                                                                                                       RenderDisplay() }
          
          
          
-         
-         
-       # Text Explanation for Escape from Ruins Project implementation:
+       
+       
+       
+       
+       
+       
+       
+       
+       
+# Text Explanation for Escape from Ruins Project implementation:
            
            # Angel
            * Added gravity components to the angel so that it has features of moving up and down whenever the user left clicks on the mouse so that the character can dodge                     incoming obstacles
