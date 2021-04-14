@@ -1,7 +1,7 @@
 ## Pipe and Filter Arch. Diagram of Escape from Ruins of the Underworld :
 -Cause and effect relationship:
    * Filters apply local transformations to their input streams and does incremental programming so that game design is output before all input functionality is consumed.
-   * * Pipes serve as connectors for each method in the diagram below, transmitting different functionalities to each other  so that the game can work as a whole unit (e.g if a player jumps through a set of pipes, then total score will be incremented by 1).
+   *  Pipes serve as connectors for each method in the diagram below, transmitting different functionalities to each other  so that the game can work as a whole unit (e.g if a player jumps through a set of pipes, then total score will be incremented by 1).
   * User hits ground, angelDied() is called
   * User makes contact with an upper level or lower level pipe, angelDied() is called
   * User gets hit by an enemy fireball, angelDied() is called
