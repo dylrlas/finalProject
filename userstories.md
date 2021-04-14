@@ -40,7 +40,7 @@
 * ### 5 : Intuitive UI
  **As a user, I want an interface that doesn't take a long time to learn, so that I can learn how to play the game more quickly.**
  * #### 5.1: Physics/Gravity Components
-   **As a user, I want to be able to interact with the angel by clicking the mouse button to jump up to a higher level and not clicking anything to let the angel fall a little due to the gravity mechanic implementation in the Visual Studio IDE
+   **As a user, I want to be able to interact with the angel by clicking the mouse button to jump up to a higher level and not clicking anything to let the angel fall a little due to the gravity mechanic implementation in the Visual Studio IDE.**
     *Elaboration:* A user should be able to click the mouse to decide which level they will "hover" on and whenever the avatar makes contact with a pipe, then they should automatically fall to the ground and lose the game. 
     *Constraints:* A user shouldn't be able to fly endlessly through the game if they make contact with a pipe or get hit by a fireball by a flying enemy, they should automatically fall and the game will be restarted until the user exits out of the application. 
     *Effort Estimation:* 3 person-hours  
