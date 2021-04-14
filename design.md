@@ -84,14 +84,32 @@
 
 
 
-       ## Design/Documentation for Escape from Ruins Scaled-Back Project:
+       # Design/Documentation for Escape from Ruins Scaled-Back Project:
        
-       # I.) Overall Project Goal:
+       ## I.) Overall Project Goal:
             * The goal of this project will be to create a simple PC verison however where the user clicks the left-mouse button to fly upward instead of tapping anywhere on the screen. The game is a side-scroller where the player controls a angel, attempting to fly between rows of red pipes without coming into contact with them. If the player touches the pipes or gets hit by an enemy fireball, it ends the game. The angel briefly "flies" upward each time the player uses left button on mouse; ; if the left mouse button is not clicked, the angel falls due to gravity and "dies". This game should be entertaining, fun, and performing all correct user functionalities that do not create any fatal errors which would result in the termination of the program.
 
 
-       # II.) Risks/Constraints/Assumptions:
-             * 
+       ## II.) Risks/Constraints/Assumptions:
+             * Technical Constraints :
+                 - Costs lots of time but not too many resources; heavy schedule relating to other schoolwork/ exams that I need to spend time doing or
+                  studying for; not seeking financial gain- only a school project
+                 - Maintenance performance and debugging in order to improve design implementation as well as algorithm efficiency
+            * Functional Requirements :
+                - User should be able to control how high the angel goes related to how fast or how many repetitions the user clicks the left-mouse
+                   button in a certain amount of alotted time
+                 - Total of how many pipes the customer has jumped through in order to help the user keep track of their score as soon as the main game
+                    application is launched from the embedded UI system
+           * Quality Attributes :
+                  - Reliablity, usability, security, and strongly efficient performance that contains no error crashes nor glitched artwork frames whenever
+                     the game is launched
+                   - Response measure must be efficient in a quick time frame that detects faults to repair in the coded software, where the IDE is normally
+                     operational and physically infrastructured by notifying any appropriate entities to fix the source of events causing each fault.
+                     
+         
+         
+         
+         ## III.)
        
        
                                           
