@@ -84,7 +84,16 @@
 
 
 
-       ## 
+       ## Design/Documentation for Escape from Ruins Scaled-Back Project:
+       
+       # I.) Overall Project Goal:
+            * The goal of this project will be to create a simple PC verison however where the user clicks the left-mouse button to fly upward instead of tapping anywhere on the screen. The game is a side-scroller where the player controls a angel, attempting to fly between rows of red pipes without coming into contact with them. If the player touches the pipes or gets hit by an enemy fireball, it ends the game. The angel briefly "flies" upward each time the player uses left button on mouse; ; if the left mouse button is not clicked, the angel falls due to gravity and "dies". This game should be entertaining, fun, and performing all correct user functionalities that do not create any fatal errors which would result in the termination of the program.
+
+
+       # II.) Risks/Constraints/Assumptions:
+             * 
+       
+       
                                           
                                           
                                           
