@@ -1,4 +1,10 @@
 ## Pipe and Filter Arch. Diagram of Escape from Ruins of the Underworld :
+-Cause and effect relationship:
+  * User hits ground, angelDied() is called
+  * User makes contact with an upper level or lower level pipe, angelDied() is called
+  * User gets hit by an enemy fireball, angelDied() is called
+  * Import coded animation to make it look like the angel is actually dead and not standing on the ground stiff as a board in an awkward upright position
+  * 
 
                                                                                          flow of data
                                                                           ----------------------------------------
@@ -65,7 +71,18 @@
            * Responsible for art visualization in the project
            * Basically all this method will do is to display the background image, pipes at randomized location (not responsible for WHERE the pipes are placed in game scene), angel/enemy sprites that are imported into the project, as well as displaying the overall image during gameplay
 
-            # 
+           #main()
+           * functionality in this main method will allow the user to start the game whenever it is launched from a PC-compatible device
+           * 
+           
+           
+           # Server
+            * This user-friendly type of functionality is only meant to pertain to a single player level, instead of multiplayer, so that only one player is allowed to play a game with one character sprite - dodging enemies and pipes as they try to escape from the ruins of the underworld.
+            * Initially calls all method prototypes depicted in the arch. diagram in a specific order (listed above) so that the program can function properly and meet all user expectations of how the game is  supposed to implemented by the developers. *(NO Multiplayer server implemented in this project)*
+
+
+
+       ## 
                                           
                                           
                                           
