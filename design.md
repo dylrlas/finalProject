@@ -128,13 +128,11 @@ Gravity/Physics (components)}             |                           |         
                   *  Exit button may be potentially available if the user wishes to quit early (although not really necessary) ; restart button functionality required however
                   *  Enemies will randomly spawn and fly much like the angel in front of the player (no they won’t have to avoid pipes like you) and shoot fireballs at the         angel. It is the gamer’s job to avoid getting hit by these as well otherwise they have to start the restart the game again
 
-
-
-        
-       * IV.)  Overview of User Requirements and General Project Requirements 
+         
+         * IV.)  Overview of User Requirements and General Project Requirements 
        
                      * 1.) Game Format : Having a game with simple rules and mechanics would be ideal for beginning and intermediate players and allow everyone to enjoy the game, without requiring extensive research to understand rules and strategy.
-                     
+                                          
                      * 2.) Enables designated changes:  In this context, the angel who sholuld have wings should not crash to the ground whenever he does not crash into a pipe   or gets hit by a fireball. Changes should be additionally made if an original idea on a specific feature of the game needs to be modified in order to fit in the overall scope of the project.
                      * 3.) Unique features in custom-made project: Adding enemies who shoot fireballs is a classic example of something that is not in the game of Flappy Bird that the developer should plan to implement into his own game design to make it more unique and not just a "copy" of a game that was once famous and addictive. 
 
@@ -145,5 +143,19 @@ Gravity/Physics (components)}             |                           |         
                                           
                                           
                                           
-
+          * Control Issues that pertain to EscapefromRuins Project :
+                 * 1.)  Compared with other AI flappy bird projects, this game is more difficult. Instead of a fixed number, the horizontal distance between adjacent pipes and the gap are all random within a given range.
+              * 2.) With a small population of size 10, it typically takes less than 50 generations to get a proficient angel who can fly a very, very long distance before         death.
+              * 3.) Support adding a human player (playing as angel avatar) to avoid incoming enemy attacks substantiated by an AI enemy at random points in a constricted time  interval .
+              * 4.) No neural networks are involved (if this can count as a particular issue).
+              * 5.)  It is easy to understand and straightforward to implement Cartesian genetic programming for physics components such as implementing gravity functionality.
+ 
+ 
+         * Classes involved in the structure of project design system:
+             *  Method name angelisDead() is called whenever the player dies (i.e. touches ground, gets hit by enemy attack, or smacks straight into a pipe)
+             *  restartgame() method called after angelisDead() is called; this method call would also be associated with displaying a "Game Over message on the game screen countdown method called in the beginning of application launch sequence or after 
+             *  One singleton class that was implemented in D2 was if a varibale named instance does not match up with gameobject being called, then the object would be destroyed-implemented in the GameControl.cs file
+             * AngelControls.cs file is responsible for enabling the avatar angel to move up and down and for the player to navigate through columns of pipes in randomized orientations as well as gravitational components added to the game
+            * Added a collider so that the avatar will hit a "barrier" insteadd of slipping through the bottom of the background wallpaer.png image and out of view from the user
+            * Start method is used for initialization purposes when the player initially starts the game, while the update method will perform some functionalities that are required to be in-check by the user as one event occurs that requires a specific in-game functionality to be performed  by a certain outcome (i.e. player dies when touching a pipe; so program prompts the user to click the mouse if they wish to try again; calling restartgame() method; and the cycle repeats itself over and over again until the player quits the application).     
 
