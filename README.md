@@ -16,4 +16,5 @@
 * https://dylrlas.github.io/finalProject/
 
 
+# Code compilation/running method:
 * Automatically compiles when you save your C# scripts in Visual Studio and to run the program in Unity 2D, simply click on the play button in the Unity Edior HUD interface.
