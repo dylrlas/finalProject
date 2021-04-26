@@ -12,7 +12,7 @@
 * Unity 2D with C# scripts
 
 ## Code compilation/running method:
-* Automatically compiles when you save your C# scripts in Visual Studio and to run the program in Unity 2D, simply click on the play button in the Unity Edior HUD interface.
+* Automatically compiles when you save your C# scripts in Visual Studio and to run the program in Unity 2D, simply click on the play button in the Unity Editor HUD interface.
 
 
 # dylrlas finalProject link:
