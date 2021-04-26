@@ -1,4 +1,4 @@
-Requirements Specification for [Escape from Ruins of the UnderWorld "Flappy Bird-like" PC game]
+## Requirements Specification for [Escape from Ruins of the UnderWorld "Flappy Bird-like" PC game]
 1. Introduction
 1.1 Purpose of Product
 We aim to create a flappy bird like game using C# and Unity. Our game will include different card types with a few different mechanics. 
@@ -72,7 +72,7 @@ UItext
 
 
 2.5 Constraints
-1.) Sprites have to be at the right starting positions or else the game becomes either condensed and jumbled all around or no sprites show up on the background "gaming area" at all
+1.) Sprites have to be at the right starting positions or else the game becomes either condensed and jumbled all around or no sprites show up on the background "gaming area" 
 2.) User should not be able to tap another key in order to flap (has to be left-click)
 3.) User cannot "glitch" through an object and move on to keep "flapping away"; they have to collide with the object and fall to the ground
 
