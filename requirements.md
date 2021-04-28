@@ -92,7 +92,7 @@ Userstories page link for CelestialOctopi Project Page : https://dylrlas.github.
 
 ## 4. System and Non-functional Requirements
 
-## 4.1 External Interface Requirements (User,Hardware,Software,Communications)
+### 4.1 External Interface Requirements (User,Hardware,Software,Communications)
 Our project implements a Unity UI interface, which is a UI toolkit for developing user interfaces for games and applications. 
 It is a GameObject-based UI system that uses gravity/physics Components and the Game View to arrange, position, and style user interfaces.
 Developers cannot use Unity UI to create or change user interfaces in the Unity Editor. 
@@ -103,24 +103,24 @@ Our programming IDE involves Visual Studio and creating C# scripts to perform ce
 - Repeating background that is compatible with the Scrolling angel gameObject in the Unity2D UI interface
 -  Column implementation that will spawn these types of sprites at random positions throughout the game area
 
-## 4.1 External Interface Requirements using item numbers
+### 4.1 External Interface Requirements using item numbers
 NF.4.1.X. User interface : mainly includes elements such as specific competence, criteria action, and response time. Users should be able to play a card and attack an opponent respectively if all code runs and compiles without troubleshooting errors, as well as performing testable functions without server delay or any type of bugged running error.
 NF.4.1.XI. Software Interface : The system requires a configured PC of either Linux or Windows so that the card game can be run properly on the central processing machine. 
 The system must be compatible with running code from Visual Studio utilizing the C# programming language and importing the base code into the UI interface of Unity 2D.
 NF.4.1.XII.  Communication Interface :  Data transferred from the server shall use the TCIP/IP protocol over any type of secured Ethernet/WiFi connection. Access to play this game is free for everyone requires a strong stable internet connection to play with others online.
 
-## 4.2 Performance Requirements
+### 4.2 Performance Requirements
 NF.4.2.X. Code Functionality:  specific competence, criteria action, and response time. For instance, checking how efficient the runtime is running the code for the code structure implemented into our card game project.
 NF.4.2.XI. Integrity : availablity of developers to work on components of the project as well as maintenance performance, and other requirements to fulfill such as code maintentance and thorough user testing.
 NF.4.2.XII. Reliability/Availability of procedures : Correct and update code functionality that will adhere to all user requirements provided in the problem statement and userstories links on the group project website.
 
-## 4.3 Design Constraints
+### 4.3 Design Constraints
  NF.4.3.X. Game Mechanics should be relatively balanced with each other– that is to say, no mechanic or deck archetype should stand out from the others as being extremely good or weak compared to others. This will require extensive playtesting.
  NF.4.3.XI. Magnified copy of the card should disappear if the user begins to drag the card, or moves their mouse away.
  NF.4.3.XII. Each player should only have access to their own hand and deck, with cards in their hand being obfuscated from their opponent until played.
  
 
-## 4.4 Quality Requirements
+### 4.4 Quality Requirements
  NF.4.4.I. Having a game with simple rules and mechanics would be ideal for beginning and intermediate players and allow everyone to enjoy the game, without requiring extensive research to understand rules and strategy.
  NF.4.4.II. Many card games aren’t easily accessible to new players, both in difficulty and financially. We aim to create a game which is freely accessed and which has an intuitive set of rules that can be learned easily.
  NF.4.4.III. In this context, a card game mechanic refers to certain ways that cards interact with each other. When users test card interactions, there should be no functionality issues which implements various cards that are fun and innovative comared to the other card games the user has played.
@@ -129,7 +129,7 @@ NF.4.2.XII. Reliability/Availability of procedures : Correct and update code fun
  NF.4.6.VI. Developers should create preconstructed decks so that the user will not have to create their own custom deck of cards, leading to anger and frustration testing out the basic game mechanics.
 
 
-## 4.5 Other User Requirements
+### 4.5 Other User Requirements
  NF.4.5.X. A user should be able to play a card by dragging it from their hand and dropping it onto their playing field.
  NF.4.5.XI. If a user hovers over a card, an enlarged version of it should appear on screen for the user to better read
  NF.4.5.XII. As a player, I want the game to keep track of game data and statistics so that the user is free to focus on playing the game.
