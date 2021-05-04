@@ -44,7 +44,7 @@
        * Score layer comes after pipe layer in priority layer
        * Angel avatar is the topmost layer within priority queue
 
-     * Another problem about VGA is that the data should be updated at the vertical blanking time when the screen scanning reach to the area out of the screen. Other wise, if the data is changed during the scanning of the visible area of screen, the screen may be a little distorted. To avoidthe distortion, we only update the value of data when the vertical scanning is beyond the active region.
+     * Another problem about VGA is that the data should be updated at the vertical blanking time when the screen scanning reach to the area out of the screen. Other wise, if the data is changed during the scanning of the visible area of screen, the screen may be a little distorted. To avoid the distortion, we only update the value of data when the vertical scanning is beyond the active region.
 
 
 
