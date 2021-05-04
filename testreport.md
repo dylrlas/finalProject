@@ -12,14 +12,14 @@
        
        
        ### b.) Sprite generator:
-             * Column orientation: This	 submodule	keeps	updating	 the	X	coordinates	of	 the	pillars	 that	has	already appeared	on	the	screen	(by	decrementing	them	in	every	cycle),	as	well	as	the	length	of	the upcoming	pillar	 that	is	going	 to	appear	 from	 the	right	side	of	 the	screen	 (which	is	actually the	number	of	"partial"	pillars	that	stack).	The	length	of	the	pillar	should	be	random,	as	long as	the	distance	between	the	pillars	is	constant.	Once	the	sprite	moves	out	of	the	screen	(in this	case,	x	coordinate	of	any	one	of	the	pillars	becomes	zero),	we	reset	the	coordinate	so that	it	can	reappear	from	the	right	side	of	the	screen.
+       *  Column orientation: This	 submodule	keeps	updating	 the	X	coordinates	of	 the	pillars	 that	has	already appeared	on	the	screen	(by	decrementing	them	in	every	cycle),	as	well	as	the	length	of	the upcoming	pillar	 that	is	going	 to	appear	 from	 the	right	side	of	 the	screen	 (which	is	actually the	number	of	"partial"	pillars	that	stack).	The	length	of	the	pillar	should	be	random,	as	long as	the	distance	between	the	pillars	is	constant.	Once	the	sprite	moves	out	of	the	screen	(in this	case,	x	coordinate	of	any	one	of	the	pillars	becomes	zero),	we	reset	the	coordinate	so that	it	can	reappear	from	the	right	side	of	the	screen.
 
 
-            * Angel avatar: Our angel protagonist acts like the bird in flappy bird where flaps and falls will be affect by the gravity. When we implement the object motion formula in our code, time calculation is an issue that we use a counter counting instead of using system clock. We put the delay in our loop and try asuitable count number being our time unit. In addition, we add a status variable to indicate if the angel status is rising or falling. It cooperates with our jumping and falling function with iteration loop supporting continuous jumping without multi-thread.
+        * Angel avatar: Our angel protagonist acts like the bird in flappy bird where flaps and falls will be affect by the gravity. When we implement the object motion formula in our code, time calculation is an issue that we use a counter counting instead of using system clock. We put the delay in our loop and try asuitable count number being our time unit. In addition, we add a status variable to indicate if the angel status is rising or falling. It cooperates with our jumping and falling function with iteration loop supporting continuous jumping without multi-thread.
 
 
         ### c.) totalScore: 
-         * Every time the bird passes one of the pillars, the "Game Rules" submodule sends a signal, which will make the score increment by 1. Since the sprite for displaying the score is separated into a UI text field, we need to extract them from the score before sending them to the Unity 2D game scene.
+       * Every time the bird passes one of the pillars, the "Game Rules" submodule sends a signal, which will make the score increment by 1. Since the sprite for displaying the score is separated into a UI text field, we need to extract them from the score before sending them to the Unity 2D game scene.
 
 
 
