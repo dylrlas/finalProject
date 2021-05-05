@@ -15,7 +15,7 @@
        *  Column orientation: This	 submodule	keeps	updating	 the	X	coordinates	of	 the	pillars	 that	has	already appeared	on	the	screen	(by	decrementing	them	in	every	cycle),	as	well	as	the	length	of	the upcoming	pillar	 that	is	going	 to	appear	 from	 the	right	side	of	 the	screen	 (which	is	actually the	number	of	"partial"	pillars	that	stack).	The	length	of	the	pillar	should	be	random,	as	long as	the	distance	between	the	pillars	is	constant.	Once	the	sprite	moves	out	of	the	screen	(in this	case,	x	coordinate	of	any	one	of	the	pillars	becomes	zero),	we	reset	the	coordinate	so that	it	can	reappear	from	the	right	side	of	the	screen.
 
 
-        * Angel avatar: Our angel protagonist acts like the bird in flappy bird where flaps and falls will be affect by the gravity. When we implement the object motion formula in our code, time calculation is an issue that we use a counter counting instead of using system clock. We put the delay in our loop and try asuitable count number being our time unit. In addition, we add a status variable to indicate if the angel status is rising or falling. It cooperates with our jumping and falling function with iteration loop supporting continuous jumping without multi-thread.
+        * Angel avatar: Our angel protagonist acts like the bird in flappy bird where flaps and falls will be affect by the gravity. When we implement the object motion formula in our code, time calculation is an issue that we use a counter counting instead of using system clock. I put the delay in our loop and try asuitable count number being our time unit. In addition, I added a status variable to indicate if the angel status is rising or falling. It cooperates with the jumping and falling function with iteration loop supporting continuous jumping without multi-thread.
 
 
         ### c.) totalScore: 
@@ -44,7 +44,7 @@
        * Score layer comes after pipe layer in priority layer
        * Angel avatar is the topmost layer within priority queue
 
-     * Another problem about VGA is that the data should be updated at the vertical blanking time when the screen scanning reach to the area out of the screen. Other wise, if the data is changed during the scanning of the visible area of screen, the screen may be a little distorted. To avoid the distortion, we only update the value of data when the vertical scanning is beyond the active region.
+     * Another problem about VGA is that the data should be updated at the vertical blanking time when the screen scanning reach to the area out of the screen. Other wise, if the data is changed during the scanning of the visible area of screen, the screen may be a little distorted. To avoid the distortion, the value of data is only updated when the vertical scanning is beyond the active region.
 
 
 
