@@ -53,10 +53,10 @@
 ## 3.) Acceptance Testing:
    ### Users are able to denote that the following key functions/elements of the game project indeed work properly by thorough testing:
       
-      * Sprite	 controller	 and	 Unity 2D  program	 framework	 completed.	 Game	 picture	includes	background	and	angel	complete scene.
+   * Sprite	 controller	 and	 Unity 2D  program	 framework	 completed.	 Game	 picture	includes	background	and	angel	complete scene.
 
 
-      * Continue	our	sprite	control	in	hardware. Complete	 game design	 and simple program	 for	 game	 logic	 including	 bird	 movement,	column	generation	and	boundary	condition.
+     * Continue	our	sprite	control	in	hardware. Complete	 game design	 and simple program	 for	 game	 logic	 including	 bird	 movement,	column	generation	and	boundary	condition.
 
       * Added enemies to make game objective more challenging for the player rather than boring to play as well as more unique from a user perspective. No audio added because of time constraints and intended to be created that does not serve as a copy of the original flappy bird game. 
 
