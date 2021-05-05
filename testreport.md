@@ -70,7 +70,7 @@
        * No libraries necessary for testing this project through Unity2D C# program scripts, except using UnityEngine.UI and using Collections predecessors located in the headers of each script implemented into project.
 
   
-  ## User Stories listed by heading pertaining to EscapeFromRuins project: 
+  # User Stories listed by title pertaining to EscapeFromRuins project: 
    ### 1.) Game Format (completely implemented)
    ### 2.) Enables designated changes and communication of these changes to the modified scope of project (partially implemented)
    ### 3.) Unique details (not implemented)
