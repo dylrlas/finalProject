@@ -33,7 +33,7 @@
       * Functionality for input in sprite controller:
       * Angel position
       *  Column position
-      *  Game start funtionality
+      *  Game start functionality
       *  Game over message
       *  totalScore in a single run
 
