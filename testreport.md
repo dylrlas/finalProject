@@ -54,22 +54,22 @@
    ### Users are able to denote that the following key functions/elements of the game project indeed work properly by utilization of thorough testing cases:
       
   ## Game Format :
-   * Sprite	 controller	 and	 Unity 2D  program	 framework	 completed.	 Game	 picture	includes	background	and	angel	complete scene.
+  * Sprite	 controller	 and	 Unity 2D  program	 framework	 completed.	 Game	 picture	includes	background	and	angel	complete scene.
 
    ## Game Format:
-     * Continue manual user-friendly	sprite	control	in	hardware. Complete	 game design	 and simple program	 for	 game	 logic	 including	 bird	 movement,	column	generation	and	boundary	condition.
+   * Continue manual user-friendly	sprite	control	in	hardware. Complete	 game design	 and simple program	 for	 game	 logic	 including	 bird	 movement,	column	generation	and	boundary	condition.
 
    ## Unique Details/Features of Software Application: 
-      * Added enemies to make game objective more challenging for the player rather than boring to play as well as more unique from a user perspective. No audio added because of time constraints and also intended to be created so that this PC platform game is not interpreted as a copy of the original flappy bird game. 
+   * Added enemies to make game objective more challenging for the player rather than boring to play as well as more unique from a user perspective. No audio added because of time constraints and also intended to be created so that this PC platform game is not interpreted as a copy of the original flappy bird game. 
 
    ## Refinement of work on each scripted functionality
-       * Side scrolling background works without error, where the player thinks they are moving the angel but angel only ahs functionality of moving up and down. The wallpaper background is moving through a C# script at a very moderate but slow pace. 
+   * Side scrolling background works without error, where the player thinks they are moving the angel but angel only ahs functionality of moving up and down. The wallpaper background is moving through a C# script at a very moderate but slow pace. 
 
    ## Intuitive UI
-       * Gravity components work where the user avatar hits ground level and does not suddenly disappear by falling through the "scene floor" nor flapping all the way up to where the angel is not visible to the player's eye anymore.
+   * Gravity components work where the user avatar hits ground level and does not suddenly disappear by falling through the "scene floor" nor flapping all the way up to where the angel is not visible to the player's eye anymore.
 
    ## Intuitive UI
-       * No libraries necessary for testing this project through Unity2D C# program scripts, except using UnityEngine.UI and using Collections predecessors located in the headers of each script implemented into project.
+   * No libraries necessary for testing this project through Unity2D C# program scripts, except using UnityEngine.UI and using Collections predecessors located in the headers of each script implemented into project.
 
   
   # User Stories listed by title pertaining to EscapeFromRuins project: 
