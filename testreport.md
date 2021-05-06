@@ -38,7 +38,7 @@
       *  totalScore in a single player run
 
 
-   * c.) System layers that are tested:
+* c.) System layers that are tested:
     * Background layer has lowest priority
     * Pipe layer comes next in priority level
      * Score layer comes after pipe layer in priority layer
