@@ -26,10 +26,10 @@
 
 
 ## 2.) System Testing:
-   * a.) This	 module	 generates	 the	 box collider	 signals	 needed	 by	 the	 Unity interface	and	also consecutive	score value that	is	used	in	Sprite game	controller C# script that controls the total of how many pipes user has jumped through.
+ * a.) This	 module	 generates	 the	 box collider	 signals	 needed	 by	 the	 Unity interface	and	also consecutive	score value that	is	used	in	Sprite game	controller C# script that controls the total of how many pipes user has jumped through.
 
    
-   * b.) Based on the control signal received from the software, thesprite controller decides which sprites should be displayed and where they should be. Then sprite controller gets the data from the imported sprite .PNG images and sends the RGB values of each pixel to the Unity interface, shades of each sprite are subject to be modified using the coloring editor within the . The inputs tested for the sprite controller are the following: 
+ * b.) Based on the control signal received from the software, thesprite controller decides which sprites should be displayed and where they should be. Then sprite controller gets the data from the imported sprite .PNG images and sends the RGB values of each pixel to the Unity interface, shades of each sprite are subject to be modified using the coloring editor within the . The inputs tested for the sprite controller are the following: 
       * Functionality for input in sprite controller:
       * Angel position
       *  Column position
@@ -39,10 +39,10 @@
 
 
    * c.) System layers that are tested:
-       * Background layer has lowest priority
-       * Pipe layer comes next in priority level
-       * Score layer comes after pipe layer in priority layer
-       * Angel avatar is the topmost layer within priority queue
+    * Background layer has lowest priority
+    * Pipe layer comes next in priority level
+     * Score layer comes after pipe layer in priority layer
+     * Angel avatar is the topmost layer within priority queue
 
      * Another problem about Unity 2D is that the data should be updated at the vertical blanking time when the screen scanning reach to the area out of the screen. Other wise, if the data is changed during the scanning of the visible area of screen, the screen may be a little distorted. To avoid the distortion, the value of data is only updated when the vertical scanning is beyond the active region.
 
