@@ -1,5 +1,5 @@
 
-# Escape from Ruins final Project Test Report:
+# EscapeFromRuins Final Project Test Report:
 
 ## 1.) Component Testing:
 
